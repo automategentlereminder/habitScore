@@ -67,12 +67,6 @@ android/app/build/outputs/bundle/release/app-release.aab
 - The keystore file and signing secrets are intentionally ignored by git
 - Keep your local keystore and passwords backed up securely
 
-## Package Name
-
-```text
-com.chirag.habitscore
-```
-
 ## Play Store
 
 Recommended first-release metadata:
