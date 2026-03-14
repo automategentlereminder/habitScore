@@ -4,15 +4,24 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "android:bundle": "cd android && set NODE_ENV=production&& gradlew bundleRelease",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~55.0.6",
+    "expo-device": "~55.0.9",
+    "expo-linear-gradient": "~55.0.8",
+    "expo-notifications": "~55.0.12",
+    "expo-sharing": "~55.0.11",
+    "expo-sqlite": "~55.0.10",
     "expo-status-bar": "~55.0.4",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-native": "0.83.2",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-view-shot": "4.0.3"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
